@@ -1,10 +1,10 @@
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
-import { green, purple } from '@mui/material/colors';
+import { green } from '@mui/material/colors';
 
 let theme = createTheme({
   palette: {
     primary: {
-      main: purple[800],
+      main: '#fff',
     },
     secondary: {
       main: green[500],
@@ -17,6 +17,8 @@ let theme = createTheme({
       'sans-serif',
     ].join(','),
     h1: {
+      fontSize: '10rem',
+      fontWeight: '900'
     },
   },
   // components: {

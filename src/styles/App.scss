@@ -1,3 +1,16 @@
 @use 'modules/colors';
 @use 'partials/header';
 @use 'partials/footer';
+
+.welcome {
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  
+}
